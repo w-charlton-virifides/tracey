@@ -1,5 +1,5 @@
-- name: Setup Rust 1.91
-  uses: dtolnay/rust-toolchain@1.91.0
+- name: Setup Rust Stable
+  uses: dtolnay/rust-toolchain@stable
 - name: Setup Node.js
   uses: actions/setup-node@v6
   with:
@@ -8,6 +8,6 @@
 - name: Setup pnpm
   uses: pnpm/action-setup@v6
   with:
-    version: "9"
+    version: "11"
 - name: Verify pnpm
   run: pnpm --version
