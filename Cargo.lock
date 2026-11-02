@@ -5936,7 +5936,7 @@ checksum = "8df9b6e13f2d32c91b9bd719c00d1958837bc7dec474d94952798cc8e69eeec3"
 
 [[package]]
 name = "tracey"
-version = "2.0.0-rc.0"
+version = "2.0.0-rc.1"
 dependencies = [
  "arborium",
  "async-trait",
@@ -5986,7 +5986,7 @@ dependencies = [
 
 [[package]]
 name = "tracey-api"
-version = "2.0.0-rc.0"
+version = "2.0.0-rc.1"
 dependencies = [
  "facet",
  "tracey-core",
@@ -5994,14 +5994,14 @@ dependencies = [
 
 [[package]]
 name = "tracey-config"
-version = "2.0.0-rc.0"
+version = "2.0.0-rc.1"
 dependencies = [
  "facet",
 ]
 
 [[package]]
 name = "tracey-core"
-version = "2.0.0-rc.0"
+version = "2.0.0-rc.1"
 dependencies = [
  "arborium",
  "arborium-asm",
@@ -6065,7 +6065,7 @@ dependencies = [
 
 [[package]]
 name = "tracey-proto"
-version = "2.0.0-rc.0"
+version = "2.0.0-rc.1"
 dependencies = [
  "facet",
  "tracey-api",
@@ -7575,7 +7575,7 @@ checksum = "ec7a2a501ed189703dba8b08142f057e887dfc4b2cc4db2d343ac6376ba3e0b9"
 
 [[package]]
 name = "xtask"
-version = "2.0.0-rc.0"
+version = "2.0.0-rc.1"
 
 [[package]]
 name = "xterm-query"

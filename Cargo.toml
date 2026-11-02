@@ -7,7 +7,7 @@ resolver = "3"
 ignored = ["facet-error"]
 
 [workspace.package]
-version = "2.0.0-rc.0"
+version = "2.0.0-rc.1"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/w-charlton-virifides/tracey"
@@ -15,10 +15,10 @@ authors = ["Amos Wenger <amos@bearcove.eu>"]
 
 [workspace.dependencies]
 # Internal
-tracey-core = { path = "crates/tracey-core", version = "2.0.0-rc.0", default-features = false }
-tracey-api = { path = "crates/tracey-api", version = "2.0.0-rc.0" }
-tracey-proto = { path = "crates/tracey-proto", version = "2.0.0-rc.0" }
-tracey-config = { path = "crates/tracey-config", version = "2.0.0-rc.0" }
+tracey-core = { path = "crates/tracey-core", version = "2.0.0-rc.1", default-features = false }
+tracey-api = { path = "crates/tracey-api", version = "2.0.0-rc.1" }
+tracey-proto = { path = "crates/tracey-proto", version = "2.0.0-rc.1" }
+tracey-config = { path = "crates/tracey-config", version = "2.0.0-rc.1" }
 
 # Facet ecosystem
 facet = { version = "0.50.0-rc.0" }
